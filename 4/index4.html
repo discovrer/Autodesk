@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3D-markup demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="../rac-advanced-sample/style.min.css">
+    <script src="../rac-advanced-sample/three.min.js"></script>
+    <script src="../rac-advanced-sample/viewer3D.min.js"></script>
+    <script src="app4.js"></script>
+    <script src="../extensions/my-awesome-extension.js"></script>
+    <script src="../extensions/EventsTutorial.js"></script>
+    <!-- <script src="extensions/ToolbarExtension.js"></script> -->
+    <script src="extensions/ShowLabel.js"></script>
+    <script src="extensions/markupExt.js"></script>
+    <link rel="stylesheet" href="devstyle4.css">
+</head>
+
+<body onload="initializeViewer();" style="margin:0">
+    <!-- <div id="forgeViewer" ></div> -->
+    <div id="MyViewerDiv" ></div>
+    <div id="MyAwesomeLockButton" >Lock</div>
+    <div id="MyAwesomeUnlockButton" >Unlock</div>
+    <div class="my-custom-ui">
+        <div>Items Selected : <span id="MySelectionValue">0</span></div>
+        <div>Navigation Tool : <span id="MyToolValue">Unknown</span></div>
+    </div>
+    <div id="label">na</div>
+    <div id="myLabel"></div>
+    <!-- <div id="menu">
+    <p>> My Views</p>
+    <ul>
+        <li><a href="#" onClick="switchView('view1')">view 1</a></li>
+        <li><a href="#" onClick="switchView('view2')">view 2</a></li>
+        <li><a href="#" onClick="switchView('view3')">view 3</a></li>
+    </ul> -->
+    <br>
+    <div>
+</body>
+
+</html>

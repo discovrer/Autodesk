@@ -1,0 +1,73 @@
+html {color: white; font-family: Avenir Next, Arial;}
+a:link {color: white}
+a:visited {color: white}
+p {margin:15px 0 0 10px;}
+ul { margin:0; list-style: none; }
+#label { 
+    display:none; 
+    position:fixed; 
+    z-index:2; 
+    border: 2px solid #ccc; 
+    background-color: #404040; 
+    border-radius: 25px; 
+    padding: 10px;
+}
+#label img { width:200px;}
+#menu {
+    margin: 30px;
+    padding: 0px 25px 5px 0px;
+    position:absolute;
+    background-color: #404040;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px #707070;
+    z-index: 2;
+}
+#MyAwesomeLockButton {
+    margin: 30px;
+    padding: 5px 25px 5px 25px;
+    position:absolute;
+    background-color: #404040;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px #707070;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#MyAwesomeUnlockButton {
+    margin: 60px 30px 30px 30px;
+    padding: 5px 25px 5px 25px;
+    position:absolute;
+    background-color: #404040;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px #707070;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.my-custom-ui {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    margin: .3em;
+    padding: .3em;
+    font-family: sans-serif;
+    background-color: rgba(255,255,255, 0.85);
+    border-radius: 8px;
+    color: red;
+}
+
+.my-custom-ui span{
+    color: red;
+}
+
+.front-button {
+    background: red;
+}
+
+.back-button {
+    background: blue;
+}
